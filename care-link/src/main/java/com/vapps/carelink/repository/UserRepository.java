@@ -1,7 +1,14 @@
 package com.vapps.carelink.repository;
 
-import org.springframework.stereotype.Component;
+import com.vapps.carelink.model.User;
 
-@Component
-public class UserRepository {
+import java.util.Optional;
+
+public interface UserRepository {
+
+    Optional<User> findById(String id);
+
+    User save(User user);
+
+    User update(User user);
 }

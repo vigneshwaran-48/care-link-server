@@ -16,5 +16,6 @@ public class UserController {
     @PostMapping
     public ResponseEntity<?> addUser(@RequestBody UserDTO user, HttpServletRequest request) throws AppException {
 
+        return ResponseEntity.ok().build();
     }
 }
