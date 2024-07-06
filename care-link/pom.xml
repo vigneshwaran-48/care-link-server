@@ -85,6 +85,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-mongodb</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.vapps.security</groupId>
+			<artifactId>web-security</artifactId>
+			<version>1.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>

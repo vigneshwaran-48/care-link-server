@@ -1,4 +1,4 @@
-package com.vapps.carelink.service;
+package com.vapps.carelink.service.user;
 
 import com.vapps.carelink.common.dto.UserDTO;
 import com.vapps.carelink.common.exception.AppException;

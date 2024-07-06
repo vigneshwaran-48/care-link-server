@@ -24,12 +24,12 @@ public class UserCacheRepository implements UserRepository {
 
     @Override
     public User save(User user) {
-        return null;
+        return userRepository.save(user);
     }
 
     @Override
     @CachePut(value = "users", key = "'user_' + #user.getId()")
     public User update(User user) {
-        return null;
+        return userRepository.save(user);
     }
 }
